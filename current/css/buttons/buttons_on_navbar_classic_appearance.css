@@ -45,19 +45,6 @@
   margin-inline-end: 3px !important;
 }
 
-/* always show "button" styles on back/forward buttons */
-#main-window #navigator-toolbox #nav-bar #nav-bar-customization-target #back-button > .toolbarbutton-icon,
-#main-window #nav-bar #back-button > .toolbarbutton-icon,
-#main-window #navigator-toolbox #nav-bar #nav-bar-customization-target #forward-button .toolbarbutton-icon,
-#main-window #nav-bar #forward-button > .toolbarbutton-icon {
-  background: rgba(151,152,153,.05) linear-gradient(rgba(251,252,253,.95), rgba(246,247,248,.47) 49%,
-			  rgba(231,232,233,.45) 51%, rgba(225,226,229,.3));
-  border-color: rgba(0,0,0,.12) rgba(0,0,0,.19) rgba(0,0,0,.38);
-  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
-			  0 0 0 2px rgba(255,255,255,.1) inset,
-			  0 0 0 1px rgba(0,0,0,.4) inset;
-}
-
 /* back button adjustment */
 #nav-bar #nav-bar-customization-target > toolbaritem #back-button .toolbarbutton-icon 
 #nav-bar #nav-bar-customization-target > #back-button .toolbarbutton-icon,
