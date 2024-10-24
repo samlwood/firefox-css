@@ -3,7 +3,6 @@
 /****************************************************************************************/
 
 
-#nav-bar toolbarbutton:not(.all-tabs-button) .toolbarbutton-icon,
-#nav-bar toolbarbutton:not(.all-tabs-button) .toolbarbutton-badge-stack {
-  border-radius: var(--navbar_button_roundness) !important;
+#PlacesToolbar toolbarbutton.bookmark-item {
+  border-radius: var(--bookmarks_toolbar_item_button_roundness) !important;
 }

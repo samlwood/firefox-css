@@ -178,7 +178,7 @@
    [!] Firefox 88 icon set uses SVG images
 */
 
-@import "./css/buttons/icons_colorized.css"; /**/
+/* @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
@@ -195,7 +195,7 @@
 /* @import "./css/buttons/icons_custom_icons_old_chrome.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_old_osx.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_tango.css"; /**/
-/* @import "./css/buttons/icons_custom_icons_fx45.css"; /**/
+@import "./css/buttons/icons_custom_icons_fx45.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx45_inverted.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88_colorized.css"; /**/
@@ -235,7 +235,7 @@
    [!] edit file to set roundness
 */
 
-/* @import "./css/buttons/buttons_on_navbar_button_roundness.css"; /**/
+@import "./css/buttons/buttons_on_navbar_button_roundness.css"; /**/
 
 
 /* -----------------------------
@@ -272,10 +272,20 @@
    [!] Windows 7-10 only: buttons_on_bookmarks_toolbar_old_size_and_appearance.css
 */
 
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
+@import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_dark.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_aero_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/
+
+
+/* -------------------------------------
+   Bookmarks toolbar buttons: roundness
+   -------------------------------------
+
+   [!] edit file to set roundness
+*/
+
+@import "./css/buttons/buttons_on_bookmarks_toolbar_button_roundness.css"; /**/
 
 
 /* ---------------------------------------------
@@ -285,9 +295,19 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_items.css"; /**/
+@import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_items.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_items_dark.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_aero_appearance_items.css"; /**/
+
+
+/* -------------------------------------
+   Bookmarks toolbar items: roundness
+   -------------------------------------
+
+   [!] edit file to set roundness
+*/
+
+@import "./css/buttons/buttons_on_bookmarks_toolbar_button_roundness_items.css"; /**/
 
 
 /* -------------------------------
@@ -295,7 +315,7 @@
    -------------------------------
 */
 
-/* @import "./css/buttons/buttons_on_menubar_toolbar_classic_appearance.css"; /**/
+@import "./css/buttons/buttons_on_menubar_toolbar_classic_appearance.css"; /**/
 
 
 /* -------------------------------
@@ -305,7 +325,7 @@
    [!] EXPERIMENTAL
 */
 
-/* @import "./css/buttons/buttons_on_tabs_toolbar_classic_appearance.css"; /**/
+@import "./css/buttons/buttons_on_tabs_toolbar_classic_appearance.css"; /**/
 
 
 /* ---------------------------------------------------
@@ -328,7 +348,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/buttons/unified_extensions_button_hidden.css"; /**/
+@import "./css/buttons/unified_extensions_button_hidden.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only_horizontal.css"; /**/
 
@@ -374,7 +394,7 @@
 /* @import "./css/buttons/custom_backforward_small_kempelton.css"; /**/
 /* @import "./css/buttons/custom_backforward_small_phoenix.css"; /**/
 /* @import "./css/buttons/custom_backforward_connected.css"; /**/ /* round */
-/* @import "./css/buttons/custom_backforward_connected_to_location_bar.css"; /**/ /* round */
+@import "./css/buttons/custom_backforward_connected_to_location_bar.css"; /**/ /* round */
 /* @import "./css/buttons/custom_backforward_connected_alt.css"; /**/ /* squared*/
 /* @import "./css/buttons/custom_backforward_connected_to_location_bar_alt.css"; /**/ /* squared*/
 
@@ -392,7 +412,7 @@
    [!] disable all other appbutton options when using this option
 */
 
-/* @import "./css/appbutton/appbutton_hidden.css"; /**/
+@import "./css/appbutton/appbutton_hidden.css"; /**/
 
 
 /* ----------------------------------
@@ -669,7 +689,7 @@
 
 /* @import "./css/tabs/tab_throbber_blue_fx56.css"; /**/
 /* @import "./css/tabs/tab_throbber_blue.css"; /**/
-/* @import "./css/tabs/tab_throbber_grey_classic.css"; /**/
+@import "./css/tabs/tab_throbber_grey_classic.css"; /**/
 /* @import "./css/tabs/tab_throbber_green.css"; /**/
 /* @import "./css/tabs/tab_throbber_orange_ubuntu.css"; /**/
 
@@ -722,7 +742,7 @@
 /* @import "./css/tabs/newtab_button_always_visible.css"; /**/
 /* @import "./css/tabs/tab_icon_inactive_tabs_lower_opacity.css"; /**/
 /* @import "./css/tabs/tab_icon_unloaded_tabs_lower_opacity.css"; /**/
-/* @import "./css/tabs/tab_maxwidth.css"; /**/
+@import "./css/tabs/tab_maxwidth.css"; /**/
 /* @import "./css/tabs/tab_titles_remove_blur.css"; /**/
 /* @import "./css/tabs/alltabs_button_always_visible.css"; /**/  /* hidden, if multiple tab rows are used */
 /* @import "./css/tabs/alltabs_button_only_visible_in_overflow_mode.css"; /**/ 
@@ -773,7 +793,7 @@
 */
 
 /* @import "./css/generalui/popup_compact_menus.css"; /**/
-/* @import "./css/generalui/popup_compact_menus_squared.css"; /**/
+@import "./css/generalui/popup_compact_menus_squared.css"; /**/
 /* @import "./css/generalui/popup_menus_space_before_label.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
 
@@ -862,7 +882,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/generalui/close_icon_windows7.css"; /**/
+@import "./css/generalui/close_icon_windows7.css"; /**/
 /* @import "./css/generalui/close_icon_windows7inverted.css"; /**/
 /* @import "./css/generalui/close_icon_windows7v2.css"; /**/
 /* @import "./css/generalui/close_icon_gchrome.css"; /**/
@@ -985,7 +1005,7 @@
 
 /* @import "./css/toolbars/menubar_fog_hidden.css"; /**/
 
-/* @import "./css/toolbars/menubar_alternative_menu_hover_color.css"; /**/
+@import "./css/toolbars/menubar_alternative_menu_hover_color.css"; /**/
 
 /* @import "./css/toolbars/menubar_in_fullscreen_mode.css"; /**/
 
@@ -1105,7 +1125,7 @@
 
 /* @import "./css/locationbar/identitybox_colors.css"; /**/
 /* @import "./css/locationbar/identitybox_labels_hidden.css"; /**/
-/* @import "./css/locationbar/identitybox_replace_search_icon_with_globe.css"; /**/
+@import "./css/locationbar/identitybox_replace_search_icon_with_globe.css"; /**/
 
 /* ----------------------------------------------------
    Padlock icons in identity box / page identity button
@@ -1114,7 +1134,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/locationbar/identitybox_padlock_icon_classic.css"; /**/
+@import "./css/locationbar/identitybox_padlock_icon_classic.css"; /**/
 /* @import "./css/locationbar/identitybox_padlock_icon_classic2.css"; /**/
 /* @import "./css/locationbar/identitybox_padlock_icon_modern.css"; /**/
 /* @import "./css/locationbar/identitybox_padlock_icon_modern2.css"; /**/
@@ -1128,12 +1148,12 @@
 */
 
 /* @import "./css/locationbar/icons_colorized.css"; /**/
-/* @import "./css/locationbar/reader_alternative_icon.css"; /**/
+@import "./css/locationbar/reader_alternative_icon.css"; /**/
 /* @import "./css/locationbar/popup_blocked_button_hidden.css"; /**/
 /* @import "./css/locationbar/picture_in_picture_button_hidden.css"; /**/
 /* @import "./css/locationbar/zoom_button_hidden.css"; /**/
 /* @import "./css/locationbar/go_button_in_location_bar_hidden.css"; /**/
-/* @import "./css/locationbar/tracking_protection_alternative_icon.css"; /**/
+@import "./css/locationbar/tracking_protection_alternative_icon.css"; /**/
 /* @import "./css/locationbar/urlbar_icons_aero_appearance.css"; /**/
 
 
@@ -1152,7 +1172,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/locationbar/starbutton_alternative_icon.css"; /**/
+@import "./css/locationbar/starbutton_alternative_icon.css"; /**/
 /* @import "./css/locationbar/starbutton_alternative_icon_v2.css"; /**/
 
 
@@ -1181,7 +1201,7 @@
 
 @import "./css/locationbar/megabar_expanding_breakout_disabled.css"; /**/
 /* @import "./css/locationbar/megabar_disable_openviewonfocus.css"; /**/
-/* @import "./css/locationbar/urlbar_border_roundness.css"; /**/
+@import "./css/locationbar/urlbar_border_roundness.css"; /**/
 @import "./css/locationbar/urlbar_restore_visible_border.css"; /**/
 
 
@@ -1203,7 +1223,7 @@
    [!] only use one option at a time
 */
 
-@import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
+/* @import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_and_title_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_only.css"; /**/
@@ -1216,8 +1236,8 @@
 
 @import "./css/locationbar/ac_popup_megabar_compact_results.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_searchwith_and_visit_items_hidden.css"; /**/
-/* @import "./css/locationbar/ac_popup_megabar_suggest_label_hidden.css"; /**/
-/* @import "./css/locationbar/ac_popup_megabar_search_engines_hidden.css"; /**/
+@import "./css/locationbar/ac_popup_megabar_suggest_label_hidden.css"; /**/
+@import "./css/locationbar/ac_popup_megabar_search_engines_hidden.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_result_highlighting_aero.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_result_separator.css"; /**/
 
