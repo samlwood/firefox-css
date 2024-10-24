@@ -1,0 +1,13 @@
+/* change the placeholder text in the URL bar */
+#urlbar[pageproxystate="invalid"]:not([usertyping],[searchmode]) #urlbar-input::placeholder {
+  color: transparent;
+}
+#urlbar[pageproxystate="invalid"]:not([usertyping],[searchmode]) .urlbar-input-box::before {
+  content: "Enter address";
+  align-items: center;
+  display: flex;
+  height: 100%;
+  opacity: 0.69;
+  pointer-events: none;
+  position: absolute;
+}
