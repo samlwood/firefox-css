@@ -116,13 +116,13 @@
 */
 
 /* default 'grey' colors */
-@import "./config/color_variables.css"; /**/
+/* @import "./config/color_variables.css"; /**/
 
 /* 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_aero.css"; /**/
 
 /* 'Classic grey' colors (Win Classic) */
-/* @import "./config/color_variables_classic-grey.css"; /**/
+@import "./config/color_variables_classic-grey.css"; /**/
 
 /* 'Firefox 3-like' blueish colors */
 /* @import "./config/color_variables_fx3.css"; /**/
@@ -181,7 +181,7 @@
 /* @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/
-/* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
+@import "./css/buttons/icons_custom_icons_fx1.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx2.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx3.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx3strata.css"; /**/
@@ -195,7 +195,7 @@
 /* @import "./css/buttons/icons_custom_icons_old_chrome.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_old_osx.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_tango.css"; /**/
-@import "./css/buttons/icons_custom_icons_fx45.css"; /**/
+/* @import "./css/buttons/icons_custom_icons_fx45.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx45_inverted.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx88_colorized.css"; /**/
@@ -394,7 +394,7 @@
 /* @import "./css/buttons/custom_backforward_small_kempelton.css"; /**/
 /* @import "./css/buttons/custom_backforward_small_phoenix.css"; /**/
 /* @import "./css/buttons/custom_backforward_connected.css"; /**/ /* round */
-@import "./css/buttons/custom_backforward_connected_to_location_bar.css"; /**/ /* round */
+/* @import "./css/buttons/custom_backforward_connected_to_location_bar.css"; /**/ /* round */
 /* @import "./css/buttons/custom_backforward_connected_alt.css"; /**/ /* squared*/
 /* @import "./css/buttons/custom_backforward_connected_to_location_bar_alt.css"; /**/ /* squared*/
 
@@ -594,7 +594,7 @@
    [!] Note: might require overriding url bars 'selection color' --> see corresponding area
 */
 
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/
+@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/
 
 /* ########################################### Test for Firefox 133+ ########################################### */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx133.css"; /**/
@@ -1018,7 +1018,7 @@
    -------------
 */
 
-/* @import "./css/toolbars/menubar_color.css"; /**/
+@import "./css/toolbars/menubar_color.css"; /**/
 
 
 /* -----------------
@@ -1212,7 +1212,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/locationbar/urlbar_background_color.css"; /**/ /* default white background color */
+@import "./css/locationbar/urlbar_background_color.css"; /**/ /* default white background color */
 /* @import "./css/locationbar/urlbar_background_color_dark.css"; /**/ /* force dark color for e.g. dark lw-themes */
 
 
@@ -1225,7 +1225,7 @@
 
 /* @import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_and_title_50percent_width.css"; /**/
-/* @import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
+@import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_only.css"; /**/
 
 
