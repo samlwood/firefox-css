@@ -6,8 +6,8 @@ user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.bookmarks.addedImportButton", true);
 user_pref("media.videocontrols.picture-in-picture.enabled", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-user_pref("browser.toolbars.bookmarks.visibility", "never");
-user_pref("browser.uiCustomization.state", '{"placements":{"unified-extensions-area":["ublock0_raymondhill_net-browser-action"],"nav-bar":["back-button","forward-button","urlbar-container","stop-reload-button","search-container","downloads-button","home-button"],"TabsToolbar":["tabbrowser-tabs","new-tab-button","alltabs-button"],"PersonalToolbar":["personal-bookmarks"]},"currentVersion":20}');
+user_pref("browser.toolbars.bookmarks.visibility", "always");
+user_pref("browser.uiCustomization.state", '{"placements":{"unified-extensions-area":["ublock0_raymondhill_net-browser-action"],"nav-bar":["back-button","forward-button","stop-reload-button","home-button","urlbar-container","search-container","downloads-button"],"TabsToolbar":["tabbrowser-tabs","new-tab-button","alltabs-button"],"PersonalToolbar":["personal-bookmarks"]},"currentVersion":20}');
 
 // Homepage Settings
 user_pref("browser.startup.page", 1);
