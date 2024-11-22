@@ -5,6 +5,7 @@
 #urlbar[pageproxystate="invalid"]:not([usertyping],[searchmode]) .urlbar-input-box::before {
   content: "Enter address";
   align-items: center;
+  color: color-mix(in srgb, currentColor 54%, transparent);
   display: flex;
   height: 100%;
   opacity: 0.69;
