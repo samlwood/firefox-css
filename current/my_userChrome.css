@@ -1,5 +1,5 @@
 /* change the placeholder text in the URL bar */
-#urlbar[pageproxystate="invalid"]:not([usertyping],[searchmode]) #urlbar-input::placeholder {
+#urlbar-input::placeholder {
   color: transparent;
 }
 #urlbar[pageproxystate="invalid"]:not([usertyping],[searchmode]) .urlbar-input-box::before {
