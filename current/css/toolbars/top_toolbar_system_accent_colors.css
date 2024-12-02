@@ -2,10 +2,13 @@
 /* Github: https://github.com/aris-t2/customcssforfx ************************************/
 /****************************************************************************************/
 
+/*
+  Required Firefox preference
+  about:config > browser.theme.windows.accent-color-in-tabs.enabled > true
+ 
+*/
 
-@import "./tabs_below_navigation_toolbar_higher_navbar_positon.css";
-
-#main-window[tabsintitlebar] #nav-bar #nav-bar-customization-target {
-  padding-inline-start: 110px !important;
+#main-window {
+  appearance: auto !important;
+  -moz-default-appearance: -moz-win-borderless-glass !important;
 }
-/**/

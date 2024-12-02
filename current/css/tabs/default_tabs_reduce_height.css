@@ -3,8 +3,15 @@
 /****************************************************************************************/
 
 
-@import "./tabs_below_navigation_toolbar_higher_navbar_positon.css";
+:root {
+  --tab-min-height: 29px !important;
 
-#main-window[tabsintitlebar] #nav-bar #nav-bar-customization-target {
-  padding-inline-start: 60px !important;
+  &[uidensity=compact] {
+    --tab-min-height: unset !important;
+  }
+
+  &[uidensity=touch] {
+    --tab-min-height: 36px !important;
+  }
 }
+
