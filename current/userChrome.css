@@ -804,9 +804,9 @@
    [!] affects context menus, popup menus and panel menus
 */
 
-/* @import "./css/generalui/popup_compact_menus.css"; /**/
+@import "./css/generalui/popup_compact_menus.css"; /**/
 @import "./css/generalui/popup_compact_menus_squared.css"; /**/
-/* @import "./css/generalui/popup_menus_space_before_label.css"; /**/
+@import "./css/generalui/popup_menus_space_before_label.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
 
 
