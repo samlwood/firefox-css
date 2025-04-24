@@ -396,7 +396,7 @@
 /* @import "./css/buttons/custom_backforward_small_ie11.css"; /**/
 /* @import "./css/buttons/custom_backforward_small_kempelton.css"; /**/
 /* @import "./css/buttons/custom_backforward_small_phoenix.css"; /**/
-@import "./css/buttons/custom_backforward_connected.css"; /**/ /* round */
+/* @import "./css/buttons/custom_backforward_connected.css"; /**/ /* round */
 /* @import "./css/buttons/custom_backforward_connected_to_location_bar.css"; /**/ /* round */ /* not working on Fx 133+ as before */
 /* @import "./css/buttons/custom_backforward_connected_alt.css"; /**/ /* squared */
 /* @import "./css/buttons/custom_backforward_connected_to_location_bar_alt.css"; /**/ /* squared */
