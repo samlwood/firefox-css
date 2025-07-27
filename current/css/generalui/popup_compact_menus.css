@@ -5,8 +5,9 @@
 
 :root{
   --item_y_padding: 3px; /* old value: 2px */
-  --y_padding_before_label: 28px !important; /* for popup_menus_space_before_label.css */
-  --y_padding_before_label_bm: calc(var(--y_padding_before_label) - 2px ) !important; /* for popup_menus_space_before_label.css */
+  --y_padding_before_label: 24px !important; /* for popup_menus_space_before_label.css */
+  --y_padding_before_label_bm: calc(var(--y_padding_before_label) - 12px ) !important; /* for popup_menus_space_before_label.css */
+  --y_padding_before_label_sep: calc(var(--y_padding_before_label) - 12px ) !important; /* for popup_menus_space_before_label.css */
   --panel-padding: 0px !important;
   --arrowpanel-menuitem-margin: 0px !important;
   --arrowpanel-menuitem-padding: calc( var(--item_y_padding) + 1px) 2px !important;
@@ -75,6 +76,11 @@ menuseparator {
   margin-inline-end: -2px !important;
 }
 
+.menu-icon{
+  margin-inline-start: 2px !important;
+  margin-inline-end: 2px !important;
+}
+
 @media (-moz-platform: windows) {
 	
   menupopup > menuitem,
@@ -82,13 +88,15 @@ menuseparator {
 	padding-block: 0 !important;
 	padding: var(--item_y_padding) 0 !important;
 	padding-inline-start: 4px !important;
+	padding-inline-end: 4px !important;
   }
 
   * menupopup {
 	--panel-padding: 0px !important;
+	
   }
   :is(menupopup, panel) :is(.menu-accel,.menu-iconic-accel) {
-	margin-inline-end: 8px !important;
+	margin-inline-end: 4px !important;
   }
 
   :is(menupopup, panel) .menu-right {
@@ -96,6 +104,7 @@ menuseparator {
   }
 
   /* support for context_bfrsb_labels_with_icons.css */
+  menugroup#context-navigation > menuitem.menuitem-iconic > .menu-icon,
   menugroup#context-navigation > menuitem.menuitem-iconic > hbox.menu-iconic-left > .menu-iconic-icon {
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
