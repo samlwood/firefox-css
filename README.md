@@ -4,9 +4,6 @@
 - **[Custom JavaScript scripts for Firefox](https://github.com/Aris-t2/CustomJSforFx)** - **[NoiaButtons CSS tweaks](https://github.com/Aris-t2/NoiaButtons)**  
 
 
-## If you want to support this project, [Paypal Me](https://www.paypal.me/tkpay).
-
-
 ## License
 
 This project is dual-licensed under the GPLv3 and MPL 2.0, see the terms of the LICENSE files.  
