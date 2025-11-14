@@ -46,6 +46,7 @@ user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.desktop-notification", 2);
 user_pref("browser.startup.couldRestoreSession.count", 2);
 user_pref("media.webspeech.synth.dont_notify_on_error", true);
+user_pref("browser.shell.checkDefaultBrowser", false);
 
 // Do not letterbox websites
 user_pref("privacy.resistFingerprinting.letterboxing", false);
