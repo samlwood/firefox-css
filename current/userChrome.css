@@ -1191,7 +1191,7 @@
 /* @import "./css/locationbar/go_button_in_location_bar_hidden.css"; /**/
 @import "./css/locationbar/tracking_protection_alternative_icon.css"; /**/
 /* @import "./css/locationbar/urlbar_icons_aero_appearance.css"; /**/
-/* @import "./css/locationbar/urlbar_searchmode_switcher_hidden.css"; /**/ /* currently on Nightly */
+@import "./css/locationbar/urlbar_searchmode_switcher_hidden.css"; /**/ /* currently on Nightly */
 
 
 /* ----------------------------
